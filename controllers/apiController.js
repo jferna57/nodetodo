@@ -33,7 +33,7 @@ module.exports = function(app) {
                 isDone: req.body.isDone, 
                 hasAttachment: req.body.hasAttachment}, function(err,todo){
                     if (err) throw err;
-                    res.send('Sucess');
+                    res.send('Success');
                 });
         }
         else{
@@ -46,7 +46,7 @@ module.exports = function(app) {
 
             newTodo.save(function(err){
                 if (err) throw err;
-                res.send('Sucess');
+                res.send('Success');
             });
         }
     });
@@ -55,7 +55,7 @@ module.exports = function(app) {
 
         Todos.findByIdAndRemove(req.body.id, function(err){
             if (err) throw err;
-            res.send('Sucess');
+            res.send('Success');
 
         })
 
