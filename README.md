@@ -1,5 +1,5 @@
-# nodetodo
-A nodeJs todo application.
+# A nodetodo project
+A nodeJs todo application using nodejs and mongodb
 
 ## Running locally
 
@@ -9,7 +9,7 @@ npm install
 ```
 * Start the application by running
 ```sh
-npm start
+nodejs start
 ```
 or
 ```sh
